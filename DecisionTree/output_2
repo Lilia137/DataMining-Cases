@@ -1,0 +1,182 @@
+digraph G {
+	0 [label="device<=0.5?
+entropy:0.018
+sample:50000
+values:[49917,83]
+class:'-'"]
+	101 [label="ip<=180062.5?
+entropy:0.553
+sample:179
+values:[156,23]
+class:'-'"]
+	0 -> 101 [label=T]
+	102 [label="app<=32.5?
+entropy:0.395
+sample:154
+values:[142,12]
+class:'-'"]
+	101 -> 102 [label=T]
+	103 [label="os<=33.5?
+entropy:0.571
+sample:89
+values:[77,12]
+class:'-'"]
+	102 -> 103 [label=T]
+	104 [label="channel<=273.0?
+entropy:0.634
+sample:75
+values:[63,12]
+class:'-'"]
+	103 -> 104 [label=T]
+	105 [label="entropy:0.8
+sample:37
+values:[28,0]
+class:'-'"]
+	104 -> 105 [label=T]
+	106 [label="entropy:0.398
+sample:38
+values:[35,0]
+class:'-'"]
+	104 -> 106 [label=F]
+	107 [label="entropy:0.0
+sample:14
+values:[14,0]
+class:'-'"]
+	103 -> 107 [label=F]
+	108 [label="entropy:0.0
+sample:65
+values:[65,0]
+class:'-'"]
+	102 -> 108 [label=F]
+	109 [label="entropy:0.99
+sample:25
+values:[14,0]
+class:'-'"]
+	101 -> 109 [label=F]
+	110 [label="app<=28.5?
+entropy:0.013
+sample:49821
+values:[49761,60]
+class:'-'"]
+	0 -> 110 [label=F]
+	111 [label="device<=17.0?
+entropy:0.007
+sample:48717
+values:[48687,30]
+class:'-'"]
+	110 -> 111 [label=T]
+	112 [label="app<=11.5?
+entropy:0.006
+sample:48391
+values:[48368,23]
+class:'-'"]
+	111 -> 112 [label=T]
+	113 [label="ip<=105547.0?
+entropy:0.009
+sample:23807
+values:[23788,19]
+class:'-'"]
+	112 -> 113 [label=T]
+	114 [label="entropy:0.005
+sample:15499
+values:[15493,6]
+class:'-'"]
+	113 -> 114 [label=T]
+	115 [label="entropy:0.017
+sample:8308
+values:[8295,13]
+class:'-'"]
+	113 -> 115 [label=F]
+	116 [label="ip<=73643.5?
+entropy:0.002
+sample:24584
+values:[24580,4]
+class:'-'"]
+	112 -> 116 [label=F]
+	117 [label="entropy:0.0
+sample:11176
+values:[11176,0]
+class:'-'"]
+	116 -> 117 [label=T]
+	118 [label="entropy:0.004
+sample:13408
+values:[13404,4]
+class:'-'"]
+	116 -> 118 [label=F]
+	119 [label="app<=18.5?
+entropy:0.15
+sample:326
+values:[319,7]
+class:'-'"]
+	111 -> 119 [label=F]
+	120 [label="entropy:0.0
+sample:299
+values:[299,0]
+class:'-'"]
+	119 -> 120 [label=T]
+	121 [label="entropy:0.826
+sample:27
+values:[20,0]
+class:'-'"]
+	119 -> 121 [label=F]
+	122 [label="channel<=345.0?
+entropy:0.18
+sample:1104
+values:[1074,30]
+class:'-'"]
+	110 -> 122 [label=F]
+	123 [label="ip<=132543.5?
+entropy:0.551
+sample:227
+values:[198,29]
+class:'-'"]
+	122 -> 123 [label=T]
+	124 [label="app<=73.0?
+entropy:0.409
+sample:183
+values:[168,15]
+class:'-'"]
+	123 -> 124 [label=T]
+	125 [label="entropy:0.6
+sample:89
+values:[76,13]
+class:'-'"]
+	124 -> 125 [label=T]
+	126 [label="entropy:0.149
+sample:94
+values:[92,2]
+class:'-'"]
+	124 -> 126 [label=F]
+	127 [label="entropy:0.902
+sample:44
+values:[30,0]
+class:'-'"]
+	123 -> 127 [label=F]
+	128 [label="app<=32.5?
+entropy:0.013
+sample:877
+values:[876,1]
+class:'-'"]
+	122 -> 128 [label=F]
+	129 [label="click_second<=49.5?
+entropy:0.093
+sample:84
+values:[83,1]
+class:'-'"]
+	128 -> 129 [label=T]
+	130 [label="entropy:0.0
+sample:64
+values:[64,0]
+class:'-'"]
+	129 -> 130 [label=T]
+	131 [label="entropy:0.286
+sample:20
+values:[19,0]
+class:'-'"]
+	129 -> 131 [label=F]
+	132 [label="entropy:0.0
+sample:793
+values:[793,0]
+class:'-'"]
+	128 -> 132 [label=F]
+}

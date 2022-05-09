@@ -1,0 +1,171 @@
+digraph G {
+	0 [label="app<=28.5?
+entropy:0.023
+sample:10000
+values:[9977,23]
+class:'-'"]
+	281 [label="channel<=217.0?
+entropy:0.013
+sample:9618
+values:[9607,11]
+class:'-'"]
+	0 -> 281 [label=T]
+	282 [label="channel<=207.5?
+entropy:0.026
+sample:4281
+values:[4270,11]
+class:'-'"]
+	281 -> 282 [label=T]
+	283 [label="click_second<=9.5?
+entropy:0.014
+sample:3907
+values:[3902,5]
+class:'-'"]
+	282 -> 283 [label=T]
+	284 [label="entropy:0.0
+sample:2706
+values:[2706,0]
+class:'-'"]
+	283 -> 284 [label=T]
+	285 [label="ip<=1891.0?
+entropy:0.039
+sample:1201
+values:[1196,5]
+class:'-'"]
+	283 -> 285 [label=F]
+	286 [label="entropy:0.337
+sample:16
+values:[15,1]
+class:'-'"]
+	285 -> 286 [label=T]
+	287 [label="entropy:0.033
+sample:1185
+values:[1181,4]
+class:'-'"]
+	285 -> 287 [label=F]
+	288 [label="app<=15.5?
+entropy:0.119
+sample:374
+values:[368,6]
+class:'-'"]
+	282 -> 288 [label=F]
+	289 [label="os<=18.5?
+entropy:0.051
+sample:352
+values:[350,2]
+class:'-'"]
+	288 -> 289 [label=T]
+	290 [label="entropy:0.0
+sample:200
+values:[200,0]
+class:'-'"]
+	289 -> 290 [label=T]
+	291 [label="entropy:0.101
+sample:152
+values:[150,2]
+class:'-'"]
+	289 -> 291 [label=F]
+	292 [label="os<=22.5?
+entropy:0.684
+sample:22
+values:[18,4]
+class:'-'"]
+	288 -> 292 [label=F]
+	293 [label="entropy:0.0
+sample:11
+values:[11,0]
+class:'-'"]
+	292 -> 293 [label=T]
+	294 [label="entropy:0.946
+sample:11
+values:[7,4]
+class:'-'"]
+	292 -> 294 [label=F]
+	295 [label="entropy:0.0
+sample:5337
+values:[5337,0]
+class:'-'"]
+	281 -> 295 [label=F]
+	296 [label="channel<=295.5?
+entropy:0.201
+sample:382
+values:[370,12]
+class:'-'"]
+	0 -> 296 [label=F]
+	297 [label="app<=35.5?
+entropy:0.678
+sample:67
+values:[55,12]
+class:'-'"]
+	296 -> 297 [label=T]
+	298 [label="app<=34.5?
+entropy:1.0
+sample:18
+values:[9,9]
+class:'-'"]
+	297 -> 298 [label=T]
+	299 [label="ip<=62983.0?
+entropy:0.764
+sample:9
+values:[7,2]
+class:'-'"]
+	298 -> 299 [label=T]
+	300 [label="entropy:1.0
+sample:4
+values:[2,2]
+class:'-'"]
+	299 -> 300 [label=T]
+	301 [label="entropy:0.0
+sample:5
+values:[5,0]
+class:'-'"]
+	299 -> 301 [label=F]
+	302 [label="ip<=168435.5?
+entropy:0.764
+sample:9
+values:[2,7]
+class:'+'"]
+	298 -> 302 [label=F]
+	303 [label="entropy:1.0
+sample:4
+values:[2,2]
+class:'-'"]
+	302 -> 303 [label=T]
+	304 [label="entropy:0.0
+sample:5
+values:[0,5]
+class:'+'"]
+	302 -> 304 [label=F]
+	305 [label="ip<=125873.5?
+entropy:0.332
+sample:49
+values:[46,3]
+class:'-'"]
+	297 -> 305 [label=F]
+	306 [label="entropy:0.0
+sample:34
+values:[34,0]
+class:'-'"]
+	305 -> 306 [label=T]
+	307 [label="click_hour<=15.5?
+entropy:0.722
+sample:15
+values:[12,3]
+class:'-'"]
+	305 -> 307 [label=F]
+	308 [label="entropy:0.0
+sample:8
+values:[8,0]
+class:'-'"]
+	307 -> 308 [label=T]
+	309 [label="entropy:0.985
+sample:7
+values:[4,3]
+class:'-'"]
+	307 -> 309 [label=F]
+	310 [label="entropy:0.0
+sample:315
+values:[315,0]
+class:'-'"]
+	296 -> 310 [label=F]
+}

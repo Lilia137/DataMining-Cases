@@ -1,0 +1,39 @@
+digraph G {
+	0 [label="app<=18.5?
+entropy:0.811
+sample:53100
+values:[39825,13275]
+class:'-'"]
+	91 [label="ip<=126464.5?
+entropy:0.463
+sample:38227
+values:[34474,3753]
+class:'-'"]
+	0 -> 91 [label=T]
+	92 [label="entropy:0.286
+sample:28416
+values:[27000,1416]
+class:'-'"]
+	91 -> 92 [label=T]
+	93 [label="entropy:0.792
+sample:9811
+values:[7474,2337]
+class:'-'"]
+	91 -> 93 [label=F]
+	94 [label="app<=19.5?
+entropy:0.942
+sample:14873
+values:[5351,9522]
+class:'+'"]
+	0 -> 94 [label=F]
+	95 [label="entropy:0.204
+sample:4099
+values:[131,3968]
+class:'+'"]
+	94 -> 95 [label=T]
+	96 [label="entropy:0.999
+sample:10774
+values:[5220,5554]
+class:'+'"]
+	94 -> 96 [label=F]
+}

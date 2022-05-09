@@ -1,0 +1,1546 @@
+digraph G {
+	0 [label="app<=18.5?
+entropy:0.018
+sample:100000
+values:[99831,169]
+class:'-'"]
+	1 [label="app<=11.5?
+entropy:0.007
+sample:90407
+values:[90357,50]
+class:'-'"]
+	0 -> 1 [label=T]
+	2 [label="app<=7.0?
+entropy:0.01
+sample:53727
+values:[53683,44]
+class:'-'"]
+	1 -> 2 [label=T]
+	3 [label="ip<=130270.5?
+entropy:0.004
+sample:28244
+values:[28235,9]
+class:'-'"]
+	2 -> 3 [label=T]
+	4 [label="click_second<=30.5?
+entropy:0.001
+sample:22180
+values:[22178,2]
+class:'-'"]
+	3 -> 4 [label=T]
+	5 [label="entropy:0.0
+sample:12008
+values:[12008,0]
+class:'-'"]
+	4 -> 5 [label=T]
+	6 [label="click_second<=39.5?
+entropy:0.003
+sample:10172
+values:[10170,2]
+class:'-'"]
+	4 -> 6 [label=F]
+	7 [label="os<=6.5?
+entropy:0.007
+sample:3760
+values:[3758,2]
+class:'-'"]
+	6 -> 7 [label=T]
+	8 [label="click_second<=38.5?
+entropy:0.043
+sample:212
+values:[211,1]
+class:'-'"]
+	7 -> 8 [label=T]
+	9 [label="entropy:0.0
+sample:189
+values:[189,0]
+class:'-'"]
+	8 -> 9 [label=T]
+	10 [label="channel<=215.5?
+entropy:0.258
+sample:23
+values:[22,1]
+class:'-'"]
+	8 -> 10 [label=F]
+	11 [label="entropy:0.0
+sample:15
+values:[15,0]
+class:'-'"]
+	10 -> 11 [label=T]
+	12 [label="channel<=249.5?
+entropy:0.544
+sample:8
+values:[7,1]
+class:'-'"]
+	10 -> 12 [label=F]
+	13 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	12 -> 13 [label=T]
+	14 [label="entropy:0.0
+sample:7
+values:[7,0]
+class:'-'"]
+	12 -> 14 [label=F]
+	15 [label="ip<=7167.5?
+entropy:0.004
+sample:3548
+values:[3547,1]
+class:'-'"]
+	7 -> 15 [label=F]
+	16 [label="ip<=7096.5?
+entropy:0.042
+sample:219
+values:[218,1]
+class:'-'"]
+	15 -> 16 [label=T]
+	17 [label="entropy:0.0
+sample:218
+values:[218,0]
+class:'-'"]
+	16 -> 17 [label=T]
+	18 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	16 -> 18 [label=F]
+	19 [label="entropy:0.0
+sample:3329
+values:[3329,0]
+class:'-'"]
+	15 -> 19 [label=F]
+	20 [label="entropy:0.0
+sample:6412
+values:[6412,0]
+class:'-'"]
+	6 -> 20 [label=F]
+	21 [label="ip<=130313.5?
+entropy:0.013
+sample:6064
+values:[6057,7]
+class:'-'"]
+	3 -> 21 [label=F]
+	22 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	21 -> 22 [label=T]
+	23 [label="channel<=478.5?
+entropy:0.011
+sample:6063
+values:[6057,6]
+class:'-'"]
+	21 -> 23 [label=F]
+	24 [label="click_second<=14.5?
+entropy:0.008
+sample:5872
+values:[5868,4]
+class:'-'"]
+	23 -> 24 [label=T]
+	25 [label="channel<=314.5?
+entropy:0.027
+sample:1466
+values:[1462,4]
+class:'-'"]
+	24 -> 25 [label=T]
+	26 [label="channel<=136.0?
+entropy:0.042
+sample:886
+values:[882,4]
+class:'-'"]
+	25 -> 26 [label=T]
+	27 [label="entropy:0.0
+sample:417
+values:[417,0]
+class:'-'"]
+	26 -> 27 [label=T]
+	28 [label="ip<=160962.0?
+entropy:0.071
+sample:469
+values:[465,4]
+class:'-'"]
+	26 -> 28 [label=F]
+	29 [label="entropy:0.135
+sample:159
+values:[156,3]
+class:'-'"]
+	28 -> 29 [label=T]
+	30 [label="entropy:0.031
+sample:310
+values:[309,1]
+class:'-'"]
+	28 -> 30 [label=F]
+	31 [label="entropy:0.0
+sample:580
+values:[580,0]
+class:'-'"]
+	25 -> 31 [label=F]
+	32 [label="entropy:0.0
+sample:4406
+values:[4406,0]
+class:'-'"]
+	24 -> 32 [label=F]
+	33 [label="os<=27.5?
+entropy:0.084
+sample:191
+values:[189,2]
+class:'-'"]
+	23 -> 33 [label=F]
+	34 [label="entropy:0.0
+sample:169
+values:[169,0]
+class:'-'"]
+	33 -> 34 [label=T]
+	35 [label="click_second<=31.0?
+entropy:0.439
+sample:22
+values:[20,2]
+class:'-'"]
+	33 -> 35 [label=F]
+	36 [label="entropy:0.0
+sample:16
+values:[16,0]
+class:'-'"]
+	35 -> 36 [label=T]
+	37 [label="click_second<=40.0?
+entropy:0.918
+sample:6
+values:[4,2]
+class:'-'"]
+	35 -> 37 [label=F]
+	38 [label="entropy:0.0
+sample:2
+values:[0,2]
+class:'+'"]
+	37 -> 38 [label=T]
+	39 [label="entropy:0.0
+sample:4
+values:[4,0]
+class:'-'"]
+	37 -> 39 [label=F]
+	40 [label="channel<=117.5?
+entropy:0.015
+sample:25483
+values:[25448,35]
+class:'-'"]
+	2 -> 40 [label=F]
+	41 [label="os<=33.0?
+entropy:0.181
+sample:110
+values:[107,3]
+class:'-'"]
+	40 -> 41 [label=T]
+	42 [label="ip<=71563.5?
+entropy:0.079
+sample:102
+values:[101,1]
+class:'-'"]
+	41 -> 42 [label=T]
+	43 [label="ip<=70885.0?
+entropy:0.162
+sample:42
+values:[41,1]
+class:'-'"]
+	42 -> 43 [label=T]
+	44 [label="entropy:0.0
+sample:41
+values:[41,0]
+class:'-'"]
+	43 -> 44 [label=T]
+	45 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	43 -> 45 [label=F]
+	46 [label="entropy:0.0
+sample:60
+values:[60,0]
+class:'-'"]
+	42 -> 46 [label=F]
+	47 [label="os<=45.5?
+entropy:0.811
+sample:8
+values:[6,2]
+class:'-'"]
+	41 -> 47 [label=F]
+	48 [label="ip<=85876.0?
+entropy:0.918
+sample:3
+values:[1,2]
+class:'+'"]
+	47 -> 48 [label=T]
+	49 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	48 -> 49 [label=T]
+	50 [label="entropy:0.0
+sample:2
+values:[0,2]
+class:'+'"]
+	48 -> 50 [label=F]
+	51 [label="entropy:0.0
+sample:5
+values:[5,0]
+class:'-'"]
+	47 -> 51 [label=F]
+	52 [label="click_second<=52.5?
+entropy:0.014
+sample:25373
+values:[25341,32]
+class:'-'"]
+	40 -> 52 [label=F]
+	53 [label="click_second<=46.5?
+entropy:0.015
+sample:23248
+values:[23216,32]
+class:'-'"]
+	52 -> 53 [label=T]
+	54 [label="click_second<=2.5?
+entropy:0.013
+sample:20968
+values:[20944,24]
+class:'-'"]
+	53 -> 54 [label=T]
+	55 [label="click_second<=0.5?
+entropy:0.037
+sample:1017
+values:[1013,4]
+class:'-'"]
+	54 -> 55 [label=T]
+	56 [label="entropy:0.0
+sample:338
+values:[338,0]
+class:'-'"]
+	55 -> 56 [label=T]
+	57 [label="ip<=119385.0?
+entropy:0.052
+sample:679
+values:[675,4]
+class:'-'"]
+	55 -> 57 [label=F]
+	58 [label="ip<=119261.5?
+entropy:0.072
+sample:461
+values:[457,4]
+class:'-'"]
+	57 -> 58 [label=T]
+	59 [label="entropy:0.057
+sample:460
+values:[457,3]
+class:'-'"]
+	58 -> 59 [label=T]
+	60 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	58 -> 60 [label=F]
+	61 [label="entropy:0.0
+sample:218
+values:[218,0]
+class:'-'"]
+	57 -> 61 [label=F]
+	62 [label="click_second<=8.5?
+entropy:0.011
+sample:19951
+values:[19931,20]
+class:'-'"]
+	54 -> 62 [label=F]
+	63 [label="entropy:0.0
+sample:2364
+values:[2364,0]
+class:'-'"]
+	62 -> 63 [label=T]
+	64 [label="ip<=107144.0?
+entropy:0.013
+sample:17587
+values:[17567,20]
+class:'-'"]
+	62 -> 64 [label=F]
+	65 [label="click_second<=18.5?
+entropy:0.009
+sample:11720
+values:[11711,9]
+class:'-'"]
+	64 -> 65 [label=T]
+	66 [label="entropy:0.023
+sample:2666
+values:[2660,6]
+class:'-'"]
+	65 -> 66 [label=T]
+	67 [label="entropy:0.004
+sample:9054
+values:[9051,3]
+class:'-'"]
+	65 -> 67 [label=F]
+	68 [label="ip<=107161.5?
+entropy:0.02
+sample:5867
+values:[5856,11]
+class:'-'"]
+	64 -> 68 [label=F]
+	69 [label="entropy:0.722
+sample:5
+values:[4,1]
+class:'-'"]
+	68 -> 69 [label=T]
+	70 [label="entropy:0.018
+sample:5862
+values:[5852,10]
+class:'-'"]
+	68 -> 70 [label=F]
+	71 [label="ip<=23680.5?
+entropy:0.034
+sample:2280
+values:[2272,8]
+class:'-'"]
+	53 -> 71 [label=F]
+	72 [label="ip<=23556.0?
+entropy:0.079
+sample:306
+values:[303,3]
+class:'-'"]
+	71 -> 72 [label=T]
+	73 [label="app<=8.5?
+entropy:0.057
+sample:304
+values:[302,2]
+class:'-'"]
+	72 -> 73 [label=T]
+	74 [label="os<=17.5?
+entropy:0.119
+sample:124
+values:[122,2]
+class:'-'"]
+	73 -> 74 [label=T]
+	75 [label="entropy:0.0
+sample:68
+values:[68,0]
+class:'-'"]
+	74 -> 75 [label=T]
+	76 [label="entropy:0.222
+sample:56
+values:[54,2]
+class:'-'"]
+	74 -> 76 [label=F]
+	77 [label="entropy:0.0
+sample:180
+values:[180,0]
+class:'-'"]
+	73 -> 77 [label=F]
+	78 [label="app<=8.5?
+entropy:1.0
+sample:2
+values:[1,1]
+class:'-'"]
+	72 -> 78 [label=F]
+	79 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	78 -> 79 [label=T]
+	80 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	78 -> 80 [label=F]
+	81 [label="click_second<=49.5?
+entropy:0.025
+sample:1974
+values:[1969,5]
+class:'-'"]
+	71 -> 81 [label=F]
+	82 [label="ip<=83125.5?
+entropy:0.042
+sample:1096
+values:[1091,5]
+class:'-'"]
+	81 -> 82 [label=T]
+	83 [label="entropy:0.0
+sample:485
+values:[485,0]
+class:'-'"]
+	82 -> 83 [label=T]
+	84 [label="ip<=83250.0?
+entropy:0.068
+sample:611
+values:[606,5]
+class:'-'"]
+	82 -> 84 [label=F]
+	85 [label="entropy:0.918
+sample:3
+values:[2,1]
+class:'-'"]
+	84 -> 85 [label=T]
+	86 [label="entropy:0.057
+sample:608
+values:[604,4]
+class:'-'"]
+	84 -> 86 [label=F]
+	87 [label="entropy:0.0
+sample:878
+values:[878,0]
+class:'-'"]
+	81 -> 87 [label=F]
+	88 [label="entropy:0.0
+sample:2125
+values:[2125,0]
+class:'-'"]
+	52 -> 88 [label=F]
+	89 [label="ip<=147321.0?
+entropy:0.002
+sample:36680
+values:[36674,6]
+class:'-'"]
+	1 -> 89 [label=F]
+	90 [label="channel<=434.5?
+entropy:0.001
+sample:30757
+values:[30756,1]
+class:'-'"]
+	89 -> 90 [label=T]
+	91 [label="entropy:0.0
+sample:27788
+values:[27788,0]
+class:'-'"]
+	90 -> 91 [label=T]
+	92 [label="click_second<=48.5?
+entropy:0.004
+sample:2969
+values:[2968,1]
+class:'-'"]
+	90 -> 92 [label=F]
+	93 [label="entropy:0.0
+sample:2673
+values:[2673,0]
+class:'-'"]
+	92 -> 93 [label=T]
+	94 [label="click_second<=49.5?
+entropy:0.033
+sample:296
+values:[295,1]
+class:'-'"]
+	92 -> 94 [label=F]
+	95 [label="ip<=103643.5?
+entropy:0.211
+sample:30
+values:[29,1]
+class:'-'"]
+	94 -> 95 [label=T]
+	96 [label="entropy:0.0
+sample:24
+values:[24,0]
+class:'-'"]
+	95 -> 96 [label=T]
+	97 [label="ip<=105294.5?
+entropy:0.65
+sample:6
+values:[5,1]
+class:'-'"]
+	95 -> 97 [label=F]
+	98 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	97 -> 98 [label=T]
+	99 [label="entropy:0.0
+sample:5
+values:[5,0]
+class:'-'"]
+	97 -> 99 [label=F]
+	100 [label="entropy:0.0
+sample:266
+values:[266,0]
+class:'-'"]
+	94 -> 100 [label=F]
+	101 [label="ip<=147336.5?
+entropy:0.01
+sample:5923
+values:[5918,5]
+class:'-'"]
+	89 -> 101 [label=F]
+	102 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	101 -> 102 [label=T]
+	103 [label="click_second<=29.5?
+entropy:0.008
+sample:5922
+values:[5918,4]
+class:'-'"]
+	101 -> 103 [label=F]
+	104 [label="entropy:0.0
+sample:3192
+values:[3192,0]
+class:'-'"]
+	103 -> 104 [label=T]
+	105 [label="click_second<=31.5?
+entropy:0.016
+sample:2730
+values:[2726,4]
+class:'-'"]
+	103 -> 105 [label=F]
+	106 [label="channel<=400.5?
+entropy:0.073
+sample:225
+values:[223,2]
+class:'-'"]
+	105 -> 106 [label=T]
+	107 [label="entropy:0.0
+sample:197
+values:[197,0]
+class:'-'"]
+	106 -> 107 [label=T]
+	108 [label="ip<=199921.5?
+entropy:0.371
+sample:28
+values:[26,2]
+class:'-'"]
+	106 -> 108 [label=F]
+	109 [label="entropy:0.0
+sample:23
+values:[23,0]
+class:'-'"]
+	108 -> 109 [label=T]
+	110 [label="channel<=470.0?
+entropy:0.971
+sample:5
+values:[3,2]
+class:'-'"]
+	108 -> 110 [label=F]
+	111 [label="os<=5.0?
+entropy:0.918
+sample:3
+values:[1,2]
+class:'+'"]
+	110 -> 111 [label=T]
+	112 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	111 -> 112 [label=T]
+	113 [label="entropy:0.0
+sample:2
+values:[0,2]
+class:'+'"]
+	111 -> 113 [label=F]
+	114 [label="entropy:0.0
+sample:2
+values:[2,0]
+class:'-'"]
+	110 -> 114 [label=F]
+	115 [label="app<=16.0?
+entropy:0.009
+sample:2505
+values:[2503,2]
+class:'-'"]
+	105 -> 115 [label=F]
+	116 [label="entropy:0.0
+sample:2013
+values:[2013,0]
+class:'-'"]
+	115 -> 116 [label=T]
+	117 [label="ip<=168819.0?
+entropy:0.038
+sample:492
+values:[490,2]
+class:'-'"]
+	115 -> 117 [label=F]
+	118 [label="ip<=168452.5?
+entropy:0.105
+sample:145
+values:[143,2]
+class:'-'"]
+	117 -> 118 [label=T]
+	119 [label="app<=17.5?
+entropy:0.06
+sample:144
+values:[143,1]
+class:'-'"]
+	118 -> 119 [label=T]
+	120 [label="entropy:0.439
+sample:11
+values:[10,1]
+class:'-'"]
+	119 -> 120 [label=T]
+	121 [label="entropy:0.0
+sample:133
+values:[133,0]
+class:'-'"]
+	119 -> 121 [label=F]
+	122 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	118 -> 122 [label=F]
+	123 [label="entropy:0.0
+sample:347
+values:[347,0]
+class:'-'"]
+	117 -> 123 [label=F]
+	124 [label="app<=19.5?
+entropy:0.096
+sample:9593
+values:[9474,119]
+class:'-'"]
+	0 -> 124 [label=F]
+	125 [label="ip<=145238.0?
+entropy:0.681
+sample:205
+values:[168,37]
+class:'-'"]
+	124 -> 125 [label=T]
+	126 [label="os<=10.5?
+entropy:0.491
+sample:140
+values:[125,15]
+class:'-'"]
+	125 -> 126 [label=T]
+	127 [label="device<=218.0?
+entropy:0.183
+sample:36
+values:[35,1]
+class:'-'"]
+	126 -> 127 [label=T]
+	128 [label="entropy:0.0
+sample:35
+values:[35,0]
+class:'-'"]
+	127 -> 128 [label=T]
+	129 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	127 -> 129 [label=F]
+	130 [label="ip<=7311.0?
+entropy:0.57
+sample:104
+values:[90,14]
+class:'-'"]
+	126 -> 130 [label=F]
+	131 [label="entropy:0.0
+sample:12
+values:[12,0]
+class:'-'"]
+	130 -> 131 [label=T]
+	132 [label="ip<=8934.0?
+entropy:0.615
+sample:92
+values:[78,14]
+class:'-'"]
+	130 -> 132 [label=F]
+	133 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	132 -> 133 [label=T]
+	134 [label="click_second<=46.5?
+entropy:0.592
+sample:91
+values:[78,13]
+class:'-'"]
+	132 -> 134 [label=F]
+	135 [label="channel<=345.0?
+entropy:0.499
+sample:73
+values:[65,8]
+class:'-'"]
+	134 -> 135 [label=T]
+	136 [label="ip<=143100.5?
+entropy:0.549
+sample:63
+values:[55,8]
+class:'-'"]
+	135 -> 136 [label=T]
+	137 [label="ip<=138950.0?
+entropy:0.592
+sample:56
+values:[48,8]
+class:'-'"]
+	136 -> 137 [label=T]
+	138 [label="entropy:0.55
+sample:55
+values:[48,7]
+class:'-'"]
+	137 -> 138 [label=T]
+	139 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	137 -> 139 [label=F]
+	140 [label="entropy:0.0
+sample:7
+values:[7,0]
+class:'-'"]
+	136 -> 140 [label=F]
+	141 [label="entropy:0.0
+sample:10
+values:[10,0]
+class:'-'"]
+	135 -> 141 [label=F]
+	142 [label="click_minute<=0.5?
+entropy:0.852
+sample:18
+values:[13,5]
+class:'-'"]
+	134 -> 142 [label=F]
+	143 [label="device<=35.0?
+entropy:0.696
+sample:16
+values:[13,3]
+class:'-'"]
+	142 -> 143 [label=T]
+	144 [label="ip<=124429.0?
+entropy:0.811
+sample:12
+values:[9,3]
+class:'-'"]
+	143 -> 144 [label=T]
+	145 [label="entropy:0.684
+sample:11
+values:[9,2]
+class:'-'"]
+	144 -> 145 [label=T]
+	146 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	144 -> 146 [label=F]
+	147 [label="entropy:0.0
+sample:4
+values:[4,0]
+class:'-'"]
+	143 -> 147 [label=F]
+	148 [label="entropy:0.0
+sample:2
+values:[0,2]
+class:'+'"]
+	142 -> 148 [label=F]
+	149 [label="ip<=205126.0?
+entropy:0.923
+sample:65
+values:[43,22]
+class:'-'"]
+	125 -> 149 [label=F]
+	150 [label="channel<=307.5?
+entropy:0.948
+sample:60
+values:[38,22]
+class:'-'"]
+	149 -> 150 [label=T]
+	151 [label="ip<=173119.5?
+entropy:0.981
+sample:50
+values:[29,21]
+class:'-'"]
+	150 -> 151 [label=T]
+	152 [label="click_second<=18.5?
+entropy:0.993
+sample:20
+values:[9,11]
+class:'+'"]
+	151 -> 152 [label=T]
+	153 [label="ip<=149101.0?
+entropy:0.946
+sample:11
+values:[7,4]
+class:'-'"]
+	152 -> 153 [label=T]
+	154 [label="entropy:0.0
+sample:2
+values:[2,0]
+class:'-'"]
+	153 -> 154 [label=T]
+	155 [label="click_second<=13.5?
+entropy:0.991
+sample:9
+values:[5,4]
+class:'-'"]
+	153 -> 155 [label=F]
+	156 [label="click_second<=7.5?
+entropy:0.985
+sample:7
+values:[3,4]
+class:'+'"]
+	155 -> 156 [label=T]
+	157 [label="entropy:0.811
+sample:4
+values:[3,1]
+class:'-'"]
+	156 -> 157 [label=T]
+	158 [label="entropy:0.0
+sample:3
+values:[0,3]
+class:'+'"]
+	156 -> 158 [label=F]
+	159 [label="entropy:0.0
+sample:2
+values:[2,0]
+class:'-'"]
+	155 -> 159 [label=F]
+	160 [label="ip<=145921.0?
+entropy:0.764
+sample:9
+values:[2,7]
+class:'+'"]
+	152 -> 160 [label=F]
+	161 [label="click_minute<=0.5?
+entropy:1.0
+sample:4
+values:[2,2]
+class:'-'"]
+	160 -> 161 [label=T]
+	162 [label="ip<=145603.0?
+entropy:0.918
+sample:3
+values:[2,1]
+class:'-'"]
+	161 -> 162 [label=T]
+	163 [label="entropy:1.0
+sample:2
+values:[1,1]
+class:'-'"]
+	162 -> 163 [label=T]
+	164 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	162 -> 164 [label=F]
+	165 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	161 -> 165 [label=F]
+	166 [label="entropy:0.0
+sample:5
+values:[0,5]
+class:'+'"]
+	160 -> 166 [label=F]
+	167 [label="ip<=183179.5?
+entropy:0.918
+sample:30
+values:[20,10]
+class:'-'"]
+	151 -> 167 [label=F]
+	168 [label="entropy:0.0
+sample:5
+values:[5,0]
+class:'-'"]
+	167 -> 168 [label=T]
+	169 [label="click_second<=23.5?
+entropy:0.971
+sample:25
+values:[15,10]
+class:'-'"]
+	167 -> 169 [label=F]
+	170 [label="click_second<=1.0?
+entropy:0.954
+sample:8
+values:[3,5]
+class:'+'"]
+	169 -> 170 [label=T]
+	171 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	170 -> 171 [label=T]
+	172 [label="ip<=193342.5?
+entropy:0.863
+sample:7
+values:[2,5]
+class:'+'"]
+	170 -> 172 [label=F]
+	173 [label="entropy:0.0
+sample:4
+values:[0,4]
+class:'+'"]
+	172 -> 173 [label=T]
+	174 [label="entropy:0.918
+sample:3
+values:[2,1]
+class:'-'"]
+	172 -> 174 [label=F]
+	175 [label="click_second<=31.5?
+entropy:0.874
+sample:17
+values:[12,5]
+class:'-'"]
+	169 -> 175 [label=F]
+	176 [label="entropy:0.0
+sample:6
+values:[6,0]
+class:'-'"]
+	175 -> 176 [label=T]
+	177 [label="ip<=200830.5?
+entropy:0.994
+sample:11
+values:[6,5]
+class:'-'"]
+	175 -> 177 [label=F]
+	178 [label="entropy:0.918
+sample:9
+values:[6,3]
+class:'-'"]
+	177 -> 178 [label=T]
+	179 [label="entropy:0.0
+sample:2
+values:[0,2]
+class:'+'"]
+	177 -> 179 [label=F]
+	180 [label="click_second<=37.0?
+entropy:0.469
+sample:10
+values:[9,1]
+class:'-'"]
+	150 -> 180 [label=F]
+	181 [label="entropy:0.0
+sample:8
+values:[8,0]
+class:'-'"]
+	180 -> 181 [label=T]
+	182 [label="ip<=163099.5?
+entropy:1.0
+sample:2
+values:[1,1]
+class:'-'"]
+	180 -> 182 [label=F]
+	183 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	182 -> 183 [label=T]
+	184 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	182 -> 184 [label=F]
+	185 [label="entropy:0.0
+sample:5
+values:[5,0]
+class:'-'"]
+	149 -> 185 [label=F]
+	186 [label="app<=28.5?
+entropy:0.072
+sample:9388
+values:[9306,82]
+class:'-'"]
+	124 -> 186 [label=F]
+	187 [label="ip<=131401.5?
+entropy:0.009
+sample:6887
+values:[6882,5]
+class:'-'"]
+	186 -> 187 [label=T]
+	188 [label="ip<=1891.0?
+entropy:0.003
+sample:5262
+values:[5261,1]
+class:'-'"]
+	187 -> 188 [label=T]
+	189 [label="ip<=1835.0?
+entropy:0.087
+sample:91
+values:[90,1]
+class:'-'"]
+	188 -> 189 [label=T]
+	190 [label="entropy:0.0
+sample:86
+values:[86,0]
+class:'-'"]
+	189 -> 190 [label=T]
+	191 [label="app<=26.5?
+entropy:0.722
+sample:5
+values:[4,1]
+class:'-'"]
+	189 -> 191 [label=F]
+	192 [label="entropy:0.0
+sample:4
+values:[4,0]
+class:'-'"]
+	191 -> 192 [label=T]
+	193 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	191 -> 193 [label=F]
+	194 [label="entropy:0.0
+sample:5171
+values:[5171,0]
+class:'-'"]
+	188 -> 194 [label=F]
+	195 [label="ip<=131533.5?
+entropy:0.025
+sample:1625
+values:[1621,4]
+class:'-'"]
+	187 -> 195 [label=F]
+	196 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	195 -> 196 [label=T]
+	197 [label="channel<=144.0?
+entropy:0.019
+sample:1624
+values:[1621,3]
+class:'-'"]
+	195 -> 197 [label=F]
+	198 [label="entropy:0.0
+sample:682
+values:[682,0]
+class:'-'"]
+	197 -> 198 [label=T]
+	199 [label="app<=25.5?
+entropy:0.031
+sample:942
+values:[939,3]
+class:'-'"]
+	197 -> 199 [label=F]
+	200 [label="click_second<=54.5?
+entropy:0.014
+sample:815
+values:[814,1]
+class:'-'"]
+	199 -> 200 [label=T]
+	201 [label="entropy:0.0
+sample:756
+values:[756,0]
+class:'-'"]
+	200 -> 201 [label=T]
+	202 [label="ip<=188331.5?
+entropy:0.124
+sample:59
+values:[58,1]
+class:'-'"]
+	200 -> 202 [label=F]
+	203 [label="entropy:0.0
+sample:46
+values:[46,0]
+class:'-'"]
+	202 -> 203 [label=T]
+	204 [label="ip<=191042.5?
+entropy:0.391
+sample:13
+values:[12,1]
+class:'-'"]
+	202 -> 204 [label=F]
+	205 [label="entropy:1.0
+sample:2
+values:[1,1]
+class:'-'"]
+	204 -> 205 [label=T]
+	206 [label="entropy:0.0
+sample:11
+values:[11,0]
+class:'-'"]
+	204 -> 206 [label=F]
+	207 [label="ip<=166025.0?
+entropy:0.117
+sample:127
+values:[125,2]
+class:'-'"]
+	199 -> 207 [label=F]
+	208 [label="ip<=153931.5?
+entropy:0.214
+sample:59
+values:[57,2]
+class:'-'"]
+	207 -> 208 [label=T]
+	209 [label="entropy:0.0
+sample:45
+values:[45,0]
+class:'-'"]
+	208 -> 209 [label=T]
+	210 [label="click_second<=15.0?
+entropy:0.592
+sample:14
+values:[12,2]
+class:'-'"]
+	208 -> 210 [label=F]
+	211 [label="entropy:0.0
+sample:6
+values:[6,0]
+class:'-'"]
+	210 -> 211 [label=T]
+	212 [label="entropy:0.811
+sample:8
+values:[6,2]
+class:'-'"]
+	210 -> 212 [label=F]
+	213 [label="entropy:0.0
+sample:68
+values:[68,0]
+class:'-'"]
+	207 -> 213 [label=F]
+	214 [label="channel<=345.0?
+entropy:0.198
+sample:2501
+values:[2424,77]
+class:'-'"]
+	186 -> 214 [label=F]
+	215 [label="app<=35.5?
+entropy:0.485
+sample:733
+values:[656,77]
+class:'-'"]
+	214 -> 215 [label=T]
+	216 [label="app<=34.5?
+entropy:0.86
+sample:173
+values:[124,49]
+class:'-'"]
+	215 -> 216 [label=T]
+	217 [label="ip<=113515.5?
+entropy:0.586
+sample:135
+values:[116,19]
+class:'-'"]
+	216 -> 217 [label=T]
+	218 [label="os<=18.5?
+entropy:0.273
+sample:64
+values:[61,3]
+class:'-'"]
+	217 -> 218 [label=T]
+	219 [label="entropy:0.0
+sample:31
+values:[31,0]
+class:'-'"]
+	218 -> 219 [label=T]
+	220 [label="ip<=5241.5?
+entropy:0.439
+sample:33
+values:[30,3]
+class:'-'"]
+	218 -> 220 [label=F]
+	221 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	220 -> 221 [label=T]
+	222 [label="click_second<=9.5?
+entropy:0.337
+sample:32
+values:[30,2]
+class:'-'"]
+	220 -> 222 [label=F]
+	223 [label="entropy:0.684
+sample:11
+values:[9,2]
+class:'-'"]
+	222 -> 223 [label=T]
+	224 [label="entropy:0.0
+sample:21
+values:[21,0]
+class:'-'"]
+	222 -> 224 [label=F]
+	225 [label="click_second<=32.5?
+entropy:0.77
+sample:71
+values:[55,16]
+class:'-'"]
+	217 -> 225 [label=F]
+	226 [label="ip<=116468.0?
+entropy:0.461
+sample:41
+values:[37,4]
+class:'-'"]
+	225 -> 226 [label=T]
+	227 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	226 -> 227 [label=T]
+	228 [label="click_second<=17.5?
+entropy:0.384
+sample:40
+values:[37,3]
+class:'-'"]
+	226 -> 228 [label=F]
+	229 [label="entropy:0.0
+sample:22
+values:[22,0]
+class:'-'"]
+	228 -> 229 [label=T]
+	230 [label="entropy:0.65
+sample:18
+values:[15,3]
+class:'-'"]
+	228 -> 230 [label=F]
+	231 [label="channel<=338.0?
+entropy:0.971
+sample:30
+values:[18,12]
+class:'-'"]
+	225 -> 231 [label=F]
+	232 [label="ip<=177672.0?
+entropy:0.996
+sample:26
+values:[14,12]
+class:'-'"]
+	231 -> 232 [label=T]
+	233 [label="entropy:0.918
+sample:18
+values:[12,6]
+class:'-'"]
+	232 -> 233 [label=T]
+	234 [label="entropy:0.811
+sample:8
+values:[2,6]
+class:'+'"]
+	232 -> 234 [label=F]
+	235 [label="entropy:0.0
+sample:4
+values:[4,0]
+class:'-'"]
+	231 -> 235 [label=F]
+	236 [label="ip<=172683.5?
+entropy:0.742
+sample:38
+values:[8,30]
+class:'+'"]
+	216 -> 236 [label=F]
+	237 [label="ip<=136565.0?
+entropy:0.824
+sample:31
+values:[8,23]
+class:'+'"]
+	236 -> 237 [label=T]
+	238 [label="ip<=74388.5?
+entropy:0.691
+sample:27
+values:[5,22]
+class:'+'"]
+	237 -> 238 [label=T]
+	239 [label="click_second<=12.5?
+entropy:0.874
+sample:17
+values:[5,12]
+class:'+'"]
+	238 -> 239 [label=T]
+	240 [label="entropy:0.0
+sample:5
+values:[0,5]
+class:'+'"]
+	239 -> 240 [label=T]
+	241 [label="entropy:0.98
+sample:12
+values:[5,7]
+class:'+'"]
+	239 -> 241 [label=F]
+	242 [label="entropy:0.0
+sample:10
+values:[0,10]
+class:'+'"]
+	238 -> 242 [label=F]
+	243 [label="os<=41.5?
+entropy:0.811
+sample:4
+values:[3,1]
+class:'-'"]
+	237 -> 243 [label=F]
+	244 [label="entropy:0.0
+sample:3
+values:[3,0]
+class:'-'"]
+	243 -> 244 [label=T]
+	245 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	243 -> 245 [label=F]
+	246 [label="entropy:0.0
+sample:7
+values:[0,7]
+class:'+'"]
+	236 -> 246 [label=F]
+	247 [label="channel<=124.0?
+entropy:0.286
+sample:560
+values:[532,28]
+class:'-'"]
+	215 -> 247 [label=F]
+	248 [label="channel<=105.5?
+entropy:0.147
+sample:475
+values:[465,10]
+class:'-'"]
+	247 -> 248 [label=T]
+	249 [label="channel<=61.0?
+entropy:0.336
+sample:145
+values:[136,9]
+class:'-'"]
+	248 -> 249 [label=T]
+	250 [label="entropy:0.0
+sample:113
+values:[113,0]
+class:'-'"]
+	249 -> 250 [label=T]
+	251 [label="ip<=116863.5?
+entropy:0.857
+sample:32
+values:[23,9]
+class:'-'"]
+	249 -> 251 [label=F]
+	252 [label="click_second<=50.5?
+entropy:0.323
+sample:17
+values:[16,1]
+class:'-'"]
+	251 -> 252 [label=T]
+	253 [label="entropy:0.0
+sample:16
+values:[16,0]
+class:'-'"]
+	252 -> 253 [label=T]
+	254 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	252 -> 254 [label=F]
+	255 [label="ip<=144761.0?
+entropy:0.997
+sample:15
+values:[7,8]
+class:'+'"]
+	251 -> 255 [label=F]
+	256 [label="entropy:0.0
+sample:4
+values:[0,4]
+class:'+'"]
+	255 -> 256 [label=T]
+	257 [label="entropy:0.946
+sample:11
+values:[7,4]
+class:'-'"]
+	255 -> 257 [label=F]
+	258 [label="click_second<=47.5?
+entropy:0.03
+sample:330
+values:[329,1]
+class:'-'"]
+	248 -> 258 [label=F]
+	259 [label="entropy:0.0
+sample:285
+values:[285,0]
+class:'-'"]
+	258 -> 259 [label=T]
+	260 [label="click_second<=48.5?
+entropy:0.154
+sample:45
+values:[44,1]
+class:'-'"]
+	258 -> 260 [label=F]
+	261 [label="click_minute<=0.5?
+entropy:0.592
+sample:7
+values:[6,1]
+class:'-'"]
+	260 -> 261 [label=T]
+	262 [label="entropy:1.0
+sample:2
+values:[1,1]
+class:'-'"]
+	261 -> 262 [label=T]
+	263 [label="entropy:0.0
+sample:5
+values:[5,0]
+class:'-'"]
+	261 -> 263 [label=F]
+	264 [label="entropy:0.0
+sample:38
+values:[38,0]
+class:'-'"]
+	260 -> 264 [label=F]
+	265 [label="ip<=156576.0?
+entropy:0.745
+sample:85
+values:[67,18]
+class:'-'"]
+	247 -> 265 [label=F]
+	266 [label="channel<=270.0?
+entropy:0.488
+sample:66
+values:[59,7]
+class:'-'"]
+	265 -> 266 [label=T]
+	267 [label="ip<=13642.5?
+entropy:0.632
+sample:44
+values:[37,7]
+class:'-'"]
+	266 -> 267 [label=T]
+	268 [label="entropy:0.0
+sample:1
+values:[0,1]
+class:'+'"]
+	267 -> 268 [label=T]
+	269 [label="click_second<=29.5?
+entropy:0.583
+sample:43
+values:[37,6]
+class:'-'"]
+	267 -> 269 [label=F]
+	270 [label="entropy:0.362
+sample:29
+values:[27,2]
+class:'-'"]
+	269 -> 270 [label=T]
+	271 [label="entropy:0.863
+sample:14
+values:[10,4]
+class:'-'"]
+	269 -> 271 [label=F]
+	272 [label="entropy:0.0
+sample:22
+values:[22,0]
+class:'-'"]
+	266 -> 272 [label=F]
+	273 [label="ip<=168557.0?
+entropy:0.982
+sample:19
+values:[8,11]
+class:'+'"]
+	265 -> 273 [label=F]
+	274 [label="entropy:0.0
+sample:6
+values:[0,6]
+class:'+'"]
+	273 -> 274 [label=T]
+	275 [label="app<=109.0?
+entropy:0.961
+sample:13
+values:[8,5]
+class:'-'"]
+	273 -> 275 [label=F]
+	276 [label="entropy:0.0
+sample:6
+values:[6,0]
+class:'-'"]
+	275 -> 276 [label=T]
+	277 [label="app<=160.5?
+entropy:0.863
+sample:7
+values:[2,5]
+class:'+'"]
+	275 -> 277 [label=F]
+	278 [label="entropy:0.65
+sample:6
+values:[1,5]
+class:'+'"]
+	277 -> 278 [label=T]
+	279 [label="entropy:0.0
+sample:1
+values:[1,0]
+class:'-'"]
+	277 -> 279 [label=F]
+	280 [label="entropy:0.0
+sample:1768
+values:[1768,0]
+class:'-'"]
+	214 -> 280 [label=F]
+}

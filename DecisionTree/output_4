@@ -1,0 +1,336 @@
+digraph G {
+	0 [label="app<=18.5?
+entropy:0.811
+sample:53100
+values:[39825,13275]
+class:'-'"]
+	191 [label="ip<=126464.5?
+entropy:0.463
+sample:38236
+values:[34483,3753]
+class:'-'"]
+	0 -> 191 [label=T]
+	192 [label="app<=11.5?
+entropy:0.286
+sample:28401
+values:[26985,1416]
+class:'-'"]
+	191 -> 192 [label=T]
+	193 [label="app<=7.0?
+entropy:0.383
+sample:14840
+values:[13732,1108]
+class:'-'"]
+	192 -> 193 [label=T]
+	194 [label="channel<=114.0?
+entropy:0.17
+sample:9315
+values:[9079,236]
+class:'-'"]
+	193 -> 194 [label=T]
+	195 [label="entropy:0.464
+sample:193
+values:[174,19]
+class:'-'"]
+	194 -> 195 [label=T]
+	196 [label="entropy:0.162
+sample:9122
+values:[8905,217]
+class:'-'"]
+	194 -> 196 [label=F]
+	197 [label="app<=9.5?
+entropy:0.629
+sample:5525
+values:[4653,872]
+class:'-'"]
+	193 -> 197 [label=F]
+	198 [label="entropy:0.538
+sample:4728
+values:[4147,581]
+class:'-'"]
+	197 -> 198 [label=T]
+	199 [label="entropy:0.947
+sample:797
+values:[506,291]
+class:'-'"]
+	197 -> 199 [label=F]
+	200 [label="app<=13.5?
+entropy:0.156
+sample:13561
+values:[13253,308]
+class:'-'"]
+	192 -> 200 [label=F]
+	201 [label="os<=12.5?
+entropy:0.062
+sample:4839
+values:[4804,35]
+class:'-'"]
+	200 -> 201 [label=T]
+	202 [label="entropy:0.014
+sample:807
+values:[806,1]
+class:'-'"]
+	201 -> 202 [label=T]
+	203 [label="entropy:0.07
+sample:4032
+values:[3998,34]
+class:'-'"]
+	201 -> 203 [label=F]
+	204 [label="app<=15.5?
+entropy:0.201
+sample:8722
+values:[8449,273]
+class:'-'"]
+	200 -> 204 [label=F]
+	205 [label="entropy:0.156
+sample:5522
+values:[5397,125]
+class:'-'"]
+	204 -> 205 [label=T]
+	206 [label="entropy:0.27
+sample:3200
+values:[3052,148]
+class:'-'"]
+	204 -> 206 [label=F]
+	207 [label="os<=6.5?
+entropy:0.791
+sample:9835
+values:[7498,2337]
+class:'-'"]
+	191 -> 207 [label=F]
+	208 [label="app<=5.5?
+entropy:0.984
+sample:1178
+values:[502,676]
+class:'+'"]
+	207 -> 208 [label=T]
+	209 [label="click_hour<=17.5?
+entropy:0.841
+sample:578
+values:[156,422]
+class:'+'"]
+	208 -> 209 [label=T]
+	210 [label="entropy:0.988
+sample:198
+values:[86,112]
+class:'+'"]
+	209 -> 210 [label=T]
+	211 [label="entropy:0.689
+sample:380
+values:[70,310]
+class:'+'"]
+	209 -> 211 [label=F]
+	212 [label="channel<=266.5?
+entropy:0.983
+sample:600
+values:[346,254]
+class:'-'"]
+	208 -> 212 [label=F]
+	213 [label="entropy:0.811
+sample:336
+values:[252,84]
+class:'-'"]
+	212 -> 213 [label=T]
+	214 [label="entropy:0.939
+sample:264
+values:[94,170]
+class:'+'"]
+	212 -> 214 [label=F]
+	215 [label="channel<=114.0?
+entropy:0.705
+sample:8657
+values:[6996,1661]
+class:'-'"]
+	207 -> 215 [label=F]
+	216 [label="channel<=112.0?
+entropy:1.0
+sample:893
+values:[447,446]
+class:'-'"]
+	215 -> 216 [label=T]
+	217 [label="entropy:0.759
+sample:547
+values:[427,120]
+class:'-'"]
+	216 -> 217 [label=T]
+	218 [label="entropy:0.319
+sample:346
+values:[20,326]
+class:'+'"]
+	216 -> 218 [label=F]
+	219 [label="os<=27.5?
+entropy:0.626
+sample:7764
+values:[6549,1215]
+class:'-'"]
+	215 -> 219 [label=F]
+	220 [label="entropy:0.533
+sample:6607
+values:[5805,802]
+class:'-'"]
+	219 -> 220 [label=T]
+	221 [label="entropy:0.94
+sample:1157
+values:[744,413]
+class:'-'"]
+	219 -> 221 [label=F]
+	222 [label="app<=19.5?
+entropy:0.942
+sample:14864
+values:[5342,9522]
+class:'+'"]
+	0 -> 222 [label=F]
+	223 [label="ip<=119359.0?
+entropy:0.175
+sample:4075
+values:[107,3968]
+class:'+'"]
+	222 -> 223 [label=T]
+	224 [label="ip<=95604.0?
+entropy:0.303
+sample:1261
+values:[68,1193]
+class:'+'"]
+	223 -> 224 [label=T]
+	225 [label="click_second<=37.5?
+entropy:0.253
+sample:991
+values:[42,949]
+class:'+'"]
+	224 -> 225 [label=T]
+	226 [label="entropy:0.201
+sample:638
+values:[20,618]
+class:'+'"]
+	225 -> 226 [label=T]
+	227 [label="entropy:0.337
+sample:353
+values:[22,331]
+class:'+'"]
+	225 -> 227 [label=F]
+	228 [label="ip<=95854.0?
+entropy:0.457
+sample:270
+values:[26,244]
+class:'+'"]
+	224 -> 228 [label=F]
+	229 [label="entropy:0.985
+sample:14
+values:[6,8]
+class:'+'"]
+	228 -> 229 [label=T]
+	230 [label="entropy:0.396
+sample:256
+values:[20,236]
+class:'+'"]
+	228 -> 230 [label=F]
+	231 [label="os<=33.5?
+entropy:0.105
+sample:2814
+values:[39,2775]
+class:'+'"]
+	223 -> 231 [label=F]
+	232 [label="device<=222.0?
+entropy:0.118
+sample:2438
+values:[39,2399]
+class:'+'"]
+	231 -> 232 [label=T]
+	233 [label="entropy:0.125
+sample:2274
+values:[39,2235]
+class:'+'"]
+	232 -> 233 [label=T]
+	234 [label="entropy:0.0
+sample:164
+values:[0,164]
+class:'+'"]
+	232 -> 234 [label=F]
+	235 [label="entropy:0.0
+sample:376
+values:[0,376]
+class:'+'"]
+	231 -> 235 [label=F]
+	236 [label="app<=28.5?
+entropy:0.999
+sample:10789
+values:[5235,5554]
+class:'+'"]
+	222 -> 236 [label=F]
+	237 [label="app<=20.5?
+entropy:0.41
+sample:4655
+values:[4272,383]
+class:'-'"]
+	236 -> 237 [label=T]
+	238 [label="device<=1.5?
+entropy:0.802
+sample:959
+values:[725,234]
+class:'-'"]
+	237 -> 238 [label=T]
+	239 [label="entropy:0.877
+sample:776
+values:[546,230]
+class:'-'"]
+	238 -> 239 [label=T]
+	240 [label="entropy:0.152
+sample:183
+values:[179,4]
+class:'-'"]
+	238 -> 240 [label=F]
+	241 [label="app<=23.5?
+entropy:0.244
+sample:3696
+values:[3547,149]
+class:'-'"]
+	237 -> 241 [label=F]
+	242 [label="entropy:0.085
+sample:1510
+values:[1494,16]
+class:'-'"]
+	241 -> 242 [label=T]
+	243 [label="entropy:0.331
+sample:2186
+values:[2053,133]
+class:'-'"]
+	241 -> 243 [label=F]
+	244 [label="channel<=345.0?
+entropy:0.627
+sample:6134
+values:[963,5171]
+class:'+'"]
+	236 -> 244 [label=F]
+	245 [label="channel<=342.0?
+entropy:0.208
+sample:5190
+values:[170,5020]
+class:'+'"]
+	244 -> 245 [label=T]
+	246 [label="entropy:0.179
+sample:4966
+values:[134,4832]
+class:'+'"]
+	245 -> 246 [label=T]
+	247 [label="entropy:0.636
+sample:224
+values:[36,188]
+class:'+'"]
+	245 -> 247 [label=F]
+	248 [label="channel<=454.0?
+entropy:0.634
+sample:944
+values:[793,151]
+class:'-'"]
+	244 -> 248 [label=F]
+	249 [label="entropy:0.908
+sample:393
+values:[266,127]
+class:'-'"]
+	248 -> 249 [label=T]
+	250 [label="entropy:0.258
+sample:551
+values:[527,24]
+class:'-'"]
+	248 -> 250 [label=F]
+}
